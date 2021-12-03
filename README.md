@@ -72,6 +72,17 @@ After applying this algorithm to our data, we saw the following results.
 
 As we can see, the clusters ended up being very similar to that of K-Means and the distributions of both the number of observations in each cluster as well as the boxplots show identical results. 
 
+## K-Medoids
+
+Finally, we used the K-Medoids algorithm to see how well it can segment our customer base into appropriate clusters. The difference between K-Medoids and K-Means is that K-Medoids actually makes the final centroids actual datapoints which in turn makes the centroids interpretable. For K-Means, we were obtaining the mean of all points present in the cluster whereas for K-Medoids uses a cost function to compute the new centroid point. 
+
+After applying the algorithm, we obtained the following results. 
+
+![Screen Shot 2021-12-03 at 2 17 47 PM](https://user-images.githubusercontent.com/88220704/144667421-a803e10c-f36d-48bd-ae6b-4b15468403c4.png)
+
+![Screen Shot 2021-12-03 at 2 18 02 PM](https://user-images.githubusercontent.com/88220704/144667446-0599ac5b-e492-4f38-9519-8ef026c460fd.png)
+
+We can observe that K-Medoids is better at detecting outliers because the boxplots display more of them compared to K-Means, and we can also see that there is a more even split of the three clusters compared to K-Means. 
 
 
 
