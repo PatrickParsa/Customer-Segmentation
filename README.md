@@ -29,7 +29,7 @@ Data is of various customers of a bank with their credit limit, the total number
 
 ## Data Preprocessing and Exploratory Data Analysis
 
-In this seection we dealt with duplicate values and dropped unecessary columns that we don't need for modeling such as customer keys. We then examined the distributions and summary statistics of the variables. The distribution and box plot for average credit limit produced by our function is displayed below as an example
+In this section we dealt with duplicate values and dropped unecessary columns that we don't need for modeling such as customer keys. We then examined the distributions and summary statistics of the variables. The distribution and box plot for average credit limit produced by our function is displayed below as an example
 
 ![Screen Shot 2021-12-02 at 4 06 41 PM](https://user-images.githubusercontent.com/88220704/144510816-04ad2a37-17f6-428d-b6e6-aaeea487d46c.png)
 
